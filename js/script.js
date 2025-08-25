@@ -1,5 +1,5 @@
 const $html = document.querySelector('html');
-const $element = document.querySelector('#btnMode');
+const $element = document.querySelector('.btnMode');
 // selecionando elementos do html e guardando numa variavel
 
 $element.addEventListener('click', () => {

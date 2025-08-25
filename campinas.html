@@ -9,19 +9,35 @@
     <meta name="author" content="Paulo Ricardo Oliveira Abreu">
     <meta name="robots" content="index, follow">
     <meta name="keywords" content="Cidades, Inteligentes, São Paulo">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="img/icons8-cidade-16.png" type="image/x-icon">
 
     <title>Campinas</title>
 </head>
 
 <body>
+
+    <div class="menu">
+        <!-- a>img+h4>span|c -->
+        <a href="index.html">
+            <img src="img/iconCidade.png" alt="Icone de cidade" id="logo">
+        </a>
+
+        <!-- button#btnMode>i.bx.bxsmoon*2|c -->
+        <button class="btnMode">
+            <i class='bx bxs-moon'></i>
+            <i class='bx bxs-sun'></i>
+        </button>
+    </div>
+
     <div class="content">
         <!-- h1+img+br+h2{Introdução}+p+h2{Pontos Turísticos}+p+h2{Economia}+p+h2{Gastronomia}+p+h2{Passeios Gratuitos}+p+h2{Curiosidades}+p -->
         <h1>Conheça Mais Sobre Campinas</h1>
         <br>
         <div class="flex-container">
             <div class="">
-                <img src="img/campinas.jpg" alt="A imagem mostra uma vista aérea da cidade de Campinas, em São Paulo. No centro da imagem há um grande lago cercado por árvores verdes e densas, formando um parque urbano. As águas do lago são calmas e refletem o céu parcialmente nublado. Ao redor do lago, há caminhos e áreas de lazer, com pessoas caminhando e aproveitando o espaço. À esquerda, vê-se uma área com casas baixas e ruas estreitas, formando um bairro residencial tradicional. As construções são simples e estão próximas umas das outras. À direita e ao fundo, há uma região com prédios altos e modernos, indicando uma área mais verticalizada e comercial da cidade. As construções têm fachadas em tons claros e estão agrupadas em blocos. O céu está azul com algumas nuvens brancas espalhadas, e a iluminação natural destaca as cores vivas da vegetação e da cidade. A imagem transmite equilíbrio entre natureza e urbanização, mostrando Campinas como uma cidade grande com espaços verdes preservados."><br>
+                <img src="img/campinas.jpg"
+                    alt="A imagem mostra uma vista aérea da cidade de Campinas, em São Paulo. No centro da imagem há um grande lago cercado por árvores verdes e densas, formando um parque urbano. As águas do lago são calmas e refletem o céu parcialmente nublado. Ao redor do lago, há caminhos e áreas de lazer, com pessoas caminhando e aproveitando o espaço. À esquerda, vê-se uma área com casas baixas e ruas estreitas, formando um bairro residencial tradicional. As construções são simples e estão próximas umas das outras. À direita e ao fundo, há uma região com prédios altos e modernos, indicando uma área mais verticalizada e comercial da cidade. As construções têm fachadas em tons claros e estão agrupadas em blocos. O céu está azul com algumas nuvens brancas espalhadas, e a iluminação natural destaca as cores vivas da vegetação e da cidade. A imagem transmite equilíbrio entre natureza e urbanização, mostrando Campinas como uma cidade grande com espaços verdes preservados."><br>
             </div>
         </div>
         <div class="info">
@@ -55,7 +71,7 @@
             <hr>
             <h2>Pontos Turísticos e Passeios Gratuitos</h2>
 
-                <p>No turismo, Campinas oferece uma variedade de atrações que encantam moradores e visitantes. Entre os
+            <p>No turismo, Campinas oferece uma variedade de atrações que encantam moradores e visitantes. Entre os
                 principais pontos turísticos estão o Parque Portugal (Lagoa do Taquaral), com bondinho, pedalinho e
                 réplica de caravela; a Torre do Castelo, com vista panorâmica da cidade; o Bosque dos Jequitibás, que
                 abriga zoológico e aquário; e o Mercado Municipal, projetado por Ramos de Azevedo. A cidade também conta
@@ -63,38 +79,46 @@
                 em taipa de pilão do mundo.</p>
 
 
-                <ul>
-                    <li>
-                        <p>
-                            Tour Campinas: visitas guiadas à Maria Fumaça, estádios da Ponte Preta e Guarani, e Loja
-                            Maçônica Independência
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Apresentações culturais gratuitas, como shows da Orquestra Sinfônica Municipal
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Espetáculos teatrais abertos ao público, como “Os Tolos” na Estação Cultura
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Parques e praças como a Pedreira do Chapadão, Praça do Coco e Parque das Águas
-                        </p>
-                    </li>
-                </ul>
-                <hr>
+            <ul>
+                <li>
+                    <p>
+                        Tour Campinas: visitas guiadas à Maria Fumaça, estádios da Ponte Preta e Guarani, e Loja
+                        Maçônica Independência
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Apresentações culturais gratuitas, como shows da Orquestra Sinfônica Municipal
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Espetáculos teatrais abertos ao público, como “Os Tolos” na Estação Cultura
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Parques e praças como a Pedreira do Chapadão, Praça do Coco e Parque das Águas
+                    </p>
+                </li>
+            </ul>
+            <hr>
 
-                <h2>Curiosidades</h2>
-                <p>Entre as curiosidades, Campinas é considerada o “Vale do Silício Brasileiro” por sua concentração de centros de pesquisa e empresas de tecnologia. É a única cidade do interior a ter vencido o Campeonato Brasileiro de Futebol, com o Guarani em 1978. A Catedral Metropolitana é o maior edifício do mundo construído em taipa de pilão. A cidade também abriga córregos subterrâneos invisíveis e trata mais de 99 milhões de metros cúbicos de água por ano. Além disso, Campinas tem uma rivalidade histórica entre seus dois clubes de futebol, Ponte Preta e Guarani, que movimenta paixões e tradições locais.</p>
+            <h2>Curiosidades</h2>
+            <p>Entre as curiosidades, Campinas é considerada o “Vale do Silício Brasileiro” por sua concentração de
+                centros de pesquisa e empresas de tecnologia. É a única cidade do interior a ter vencido o Campeonato
+                Brasileiro de Futebol, com o Guarani em 1978. A Catedral Metropolitana é o maior edifício do mundo
+                construído em taipa de pilão. A cidade também abriga córregos subterrâneos invisíveis e trata mais de 99
+                milhões de metros cúbicos de água por ano. Além disso, Campinas tem uma rivalidade histórica entre seus
+                dois clubes de futebol, Ponte Preta e Guarani, que movimenta paixões e tradições locais.</p>
 
         </div>
 
 
-
     </div>
 
+    <!-- script -->
+    <script src="js/script.js"></script>
 </body>
+
+</html>
